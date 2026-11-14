@@ -1,0 +1,8 @@
+Subject 6 SSDA k=0 result
+loss: 1.191582
+acc: 0.600694
+kappa: 0.467593
+recall: 0.600694
+auc: 0.818769
+tat_mse: 0.042686
+tat_rho: 0.925820

@@ -1,0 +1,38 @@
+[
+  {
+    "source": "/Volumes/My Passport/文稿/科研/20260831/论文实验完整交接包_20260918/01_服务器原始快照/D-syf-paper-experiments/run_loso.py",
+    "destination": "run_loso.py"
+  },
+  {
+    "source": "/Volumes/My Passport/文稿/科研/20260831/论文实验完整交接包_20260918/01_服务器原始快照/D-syf-paper-experiments/run_paper_core.py",
+    "destination": "run_paper_core.py"
+  },
+  {
+    "source": "/Volumes/My Passport/文稿/科研/20260831/论文实验完整交接包_20260918/01_服务器原始快照/D-syf-paper-experiments/run_r006_eegnet.py",
+    "destination": "run_r006_eegnet.py"
+  },
+  {
+    "source": "/Volumes/My Passport/文稿/科研/20260831/论文实验完整交接包_20260918/01_服务器原始快照/D-syf-paper-experiments/run_r007_shallow_fbcspnet.py",
+    "destination": "run_r007_shallow_fbcspnet.py"
+  },
+  {
+    "source": "/Volumes/My Passport/文稿/科研/20260831/论文实验完整交接包_20260918/01_服务器原始快照/D-syf-paper-experiments/run_r009_coral_eegnet.py",
+    "destination": "run_r009_coral_eegnet.py"
+  },
+  {
+    "source": "/Volumes/My Passport/文稿/科研/20260831/论文实验完整交接包_20260918/01_服务器原始快照/D-syf-paper-experiments/run_r005_fbcsp_lda.py",
+    "destination": "run_r005_fbcsp_lda.py"
+  },
+  {
+    "source": "/Volumes/My Passport/文稿/科研/20260831/论文实验完整交接包_20260918/01_服务器原始快照/D-syf-paper-experiments/run_sourcefree_loso_tat.py",
+    "destination": "run_sourcefree_loso_tat.py"
+  },
+  {
+    "source": "/Volumes/My Passport/文稿/科研/20260831/论文实验完整交接包_20260918/01_服务器原始快照/D-syf-paper-experiments/Models/D_STNet.py",
+    "destination": "Models/D_STNet_HGD.py"
+  },
+  {
+    "source": "/Volumes/My Passport/文稿/科研/20260831/论文实验完整交接包_20260918/01_服务器原始快照/D-syf-paper-experiments/DataLoader/LoadData.py",
+    "destination": "DataLoader/LoadData.py"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "pid": 43636,
+  "updated_at": "2026-11-09T17:49:23+08:00",
+  "state": "complete",
+  "mode": "source_global",
+  "completed_folds": 10,
+  "expected_folds": 10,
+  "wall_seconds": 5932.684273481369
+}

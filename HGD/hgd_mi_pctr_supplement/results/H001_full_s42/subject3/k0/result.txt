@@ -1,0 +1,10 @@
+Subject 3 SSDA k=0 result
+loss: 0.896277
+acc: 0.868750
+kappa: 0.825000
+recall: 0.868750
+auc: 0.975781
+adapt_trainable_params: 511967.000000
+adapt_total_params: 511967.000000
+tat_mse: 0.138796
+tat_rho: 0.339467

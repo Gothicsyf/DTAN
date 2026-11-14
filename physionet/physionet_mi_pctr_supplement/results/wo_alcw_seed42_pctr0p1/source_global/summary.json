@@ -1,0 +1,953 @@
+{
+  "mode": "source_global",
+  "kind": "formal",
+  "completed_folds": 10,
+  "expected_folds": 10,
+  "seed": 42,
+  "results": [
+    {
+      "kind": "formal",
+      "mode": "source_global",
+      "fold": 1,
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.7872340425531915,
+        "kappa": 0.6817874069058902,
+        "macro_recall": 0.7902777777777779,
+        "macro_f1": 0.7854406130268199,
+        "macro_auc": 0.9458781362007169,
+        "n_test": 47,
+        "confusion_matrix": [
+          [
+            13,
+            1,
+            2
+          ],
+          [
+            0,
+            14,
+            1
+          ],
+          [
+            1,
+            5,
+            10
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          15,
+          16
+        ],
+        "predicted_class_counts": [
+          14,
+          20,
+          13
+        ]
+      },
+      "source_only_metrics": {
+        "accuracy": 0.723404255319149,
+        "kappa": 0.5854816824966078,
+        "macro_recall": 0.7222222222222222,
+        "macro_f1": 0.726619644723093,
+        "macro_auc": 0.8394713261648746,
+        "n_test": 47,
+        "confusion_matrix": [
+          [
+            12,
+            3,
+            1
+          ],
+          [
+            1,
+            10,
+            4
+          ],
+          [
+            0,
+            4,
+            12
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          15,
+          16
+        ],
+        "predicted_class_counts": [
+          13,
+          17,
+          17
+        ]
+      },
+      "source_trials": 607,
+      "source_train_trials": 485,
+      "source_validation_trials": 122,
+      "target_adapt_trials": 22,
+      "target_test_trials": 47,
+      "best_source_validation": {
+        "epoch": 17,
+        "accuracy": 0.6967213114754098,
+        "ce": 0.7394482542256839,
+        "n_validation": 122
+      },
+      "pretrain_epochs": 100,
+      "adapt_epochs": 50,
+      "train_seconds": 587.8738622998353,
+      "pctr_skipped_batches": 52,
+      "target_test_evaluation_timing": "After all pretraining and adaptation; never used for selection.",
+      "finished_at": "2026-11-09T16:20:23+08:00"
+    },
+    {
+      "kind": "formal",
+      "mode": "source_global",
+      "fold": 2,
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.6222222222222222,
+        "kappa": 0.4273952095808383,
+        "macro_recall": 0.6093253968253968,
+        "macro_f1": 0.591813983118331,
+        "macro_auc": 0.8709517924089671,
+        "n_test": 45,
+        "confusion_matrix": [
+          [
+            15,
+            0,
+            1
+          ],
+          [
+            4,
+            8,
+            3
+          ],
+          [
+            4,
+            5,
+            5
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          15,
+          14
+        ],
+        "predicted_class_counts": [
+          23,
+          13,
+          9
+        ]
+      },
+      "source_only_metrics": {
+        "accuracy": 0.5111111111111111,
+        "kappa": 0.24943138741470805,
+        "macro_recall": 0.4918650793650794,
+        "macro_f1": 0.44211423699914754,
+        "macro_auc": 0.8488661858266976,
+        "n_test": 45,
+        "confusion_matrix": [
+          [
+            15,
+            0,
+            1
+          ],
+          [
+            7,
+            7,
+            1
+          ],
+          [
+            12,
+            1,
+            1
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          15,
+          14
+        ],
+        "predicted_class_counts": [
+          34,
+          8,
+          3
+        ]
+      },
+      "source_trials": 610,
+      "source_train_trials": 488,
+      "source_validation_trials": 122,
+      "target_adapt_trials": 21,
+      "target_test_trials": 45,
+      "best_source_validation": {
+        "epoch": 38,
+        "accuracy": 0.7868852459016393,
+        "ce": 0.6668051188109351,
+        "n_validation": 122
+      },
+      "pretrain_epochs": 100,
+      "adapt_epochs": 50,
+      "train_seconds": 591.8095512995496,
+      "pctr_skipped_batches": 25,
+      "target_test_evaluation_timing": "After all pretraining and adaptation; never used for selection.",
+      "finished_at": "2026-11-09T16:30:18+08:00"
+    },
+    {
+      "kind": "formal",
+      "mode": "source_global",
+      "fold": 3,
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.6170212765957447,
+        "kappa": 0.42682926829268286,
+        "macro_recall": 0.6236111111111111,
+        "macro_f1": 0.533769063180828,
+        "macro_auc": 0.7995743727598565,
+        "n_test": 47,
+        "confusion_matrix": [
+          [
+            14,
+            1,
+            1
+          ],
+          [
+            1,
+            14,
+            0
+          ],
+          [
+            11,
+            4,
+            1
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          15,
+          16
+        ],
+        "predicted_class_counts": [
+          26,
+          19,
+          2
+        ]
+      },
+      "source_only_metrics": {
+        "accuracy": 0.6170212765957447,
+        "kappa": 0.4276048714479025,
+        "macro_recall": 0.6222222222222222,
+        "macro_f1": 0.5238588660396407,
+        "macro_auc": 0.7879480286738351,
+        "n_test": 47,
+        "confusion_matrix": [
+          [
+            15,
+            1,
+            0
+          ],
+          [
+            2,
+            13,
+            0
+          ],
+          [
+            8,
+            7,
+            1
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          15,
+          16
+        ],
+        "predicted_class_counts": [
+          25,
+          21,
+          1
+        ]
+      },
+      "source_trials": 607,
+      "source_train_trials": 485,
+      "source_validation_trials": 122,
+      "target_adapt_trials": 22,
+      "target_test_trials": 47,
+      "best_source_validation": {
+        "epoch": 51,
+        "accuracy": 0.7377049180327869,
+        "ce": 0.6896998374188532,
+        "n_validation": 122
+      },
+      "pretrain_epochs": 100,
+      "adapt_epochs": 50,
+      "train_seconds": 588.7832656996907,
+      "pctr_skipped_batches": 52,
+      "target_test_evaluation_timing": "After all pretraining and adaptation; never used for selection.",
+      "finished_at": "2026-11-09T16:40:10+08:00"
+    },
+    {
+      "kind": "formal",
+      "mode": "source_global",
+      "fold": 4,
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.7659574468085106,
+        "kappa": 0.6485384092454113,
+        "macro_recall": 0.7652777777777778,
+        "macro_f1": 0.7648685127133402,
+        "macro_auc": 0.8905913978494624,
+        "n_test": 47,
+        "confusion_matrix": [
+          [
+            14,
+            0,
+            2
+          ],
+          [
+            1,
+            11,
+            3
+          ],
+          [
+            2,
+            3,
+            11
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          15,
+          16
+        ],
+        "predicted_class_counts": [
+          17,
+          14,
+          16
+        ]
+      },
+      "source_only_metrics": {
+        "accuracy": 0.723404255319149,
+        "kappa": 0.5837874659400545,
+        "macro_recall": 0.7208333333333333,
+        "macro_f1": 0.7255060728744939,
+        "macro_auc": 0.8572132616487456,
+        "n_test": 47,
+        "confusion_matrix": [
+          [
+            12,
+            0,
+            4
+          ],
+          [
+            1,
+            9,
+            5
+          ],
+          [
+            1,
+            2,
+            13
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          15,
+          16
+        ],
+        "predicted_class_counts": [
+          14,
+          11,
+          22
+        ]
+      },
+      "source_trials": 608,
+      "source_train_trials": 486,
+      "source_validation_trials": 122,
+      "target_adapt_trials": 21,
+      "target_test_trials": 47,
+      "best_source_validation": {
+        "epoch": 77,
+        "accuracy": 0.7540983606557377,
+        "ce": 0.6863544768974429,
+        "n_validation": 122
+      },
+      "pretrain_epochs": 100,
+      "adapt_epochs": 50,
+      "train_seconds": 584.2697424997459,
+      "pctr_skipped_batches": 44,
+      "target_test_evaluation_timing": "After all pretraining and adaptation; never used for selection.",
+      "finished_at": "2026-11-09T16:49:58+08:00"
+    },
+    {
+      "kind": "formal",
+      "mode": "source_global",
+      "fold": 5,
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.6222222222222222,
+        "kappa": 0.43500738552437224,
+        "macro_recall": 0.6226190476190476,
+        "macro_f1": 0.6234334445680386,
+        "macro_auc": 0.7292796375749657,
+        "n_test": 45,
+        "confusion_matrix": [
+          [
+            9,
+            1,
+            4
+          ],
+          [
+            4,
+            10,
+            2
+          ],
+          [
+            4,
+            2,
+            9
+          ]
+        ],
+        "true_class_counts": [
+          14,
+          16,
+          15
+        ],
+        "predicted_class_counts": [
+          17,
+          13,
+          15
+        ]
+      },
+      "source_only_metrics": {
+        "accuracy": 0.5333333333333333,
+        "kappa": 0.2989614243323442,
+        "macro_recall": 0.5365079365079365,
+        "macro_f1": 0.5363499245852187,
+        "macro_auc": 0.7041508348488326,
+        "n_test": 45,
+        "confusion_matrix": [
+          [
+            9,
+            4,
+            1
+          ],
+          [
+            5,
+            8,
+            3
+          ],
+          [
+            2,
+            6,
+            7
+          ]
+        ],
+        "true_class_counts": [
+          14,
+          16,
+          15
+        ],
+        "predicted_class_counts": [
+          16,
+          18,
+          11
+        ]
+      },
+      "source_trials": 609,
+      "source_train_trials": 487,
+      "source_validation_trials": 122,
+      "target_adapt_trials": 22,
+      "target_test_trials": 45,
+      "best_source_validation": {
+        "epoch": 83,
+        "accuracy": 0.819672131147541,
+        "ce": 0.5946380075861196,
+        "n_validation": 122
+      },
+      "pretrain_epochs": 100,
+      "adapt_epochs": 50,
+      "train_seconds": 591.6258612004458,
+      "pctr_skipped_batches": 25,
+      "target_test_evaluation_timing": "After all pretraining and adaptation; never used for selection.",
+      "finished_at": "2026-11-09T16:59:54+08:00"
+    },
+    {
+      "kind": "formal",
+      "mode": "source_global",
+      "fold": 6,
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.6521739130434783,
+        "kappa": 0.47801418439716314,
+        "macro_recall": 0.6547619047619048,
+        "macro_f1": 0.6372924648786717,
+        "macro_auc": 0.8160714285714287,
+        "n_test": 46,
+        "confusion_matrix": [
+          [
+            14,
+            1,
+            1
+          ],
+          [
+            0,
+            10,
+            4
+          ],
+          [
+            6,
+            4,
+            6
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          14,
+          16
+        ],
+        "predicted_class_counts": [
+          20,
+          15,
+          11
+        ]
+      },
+      "source_only_metrics": {
+        "accuracy": 0.6304347826086957,
+        "kappa": 0.4453900709219858,
+        "macro_recall": 0.6339285714285715,
+        "macro_f1": 0.6249467858663261,
+        "macro_auc": 0.8203869047619049,
+        "n_test": 46,
+        "confusion_matrix": [
+          [
+            12,
+            3,
+            1
+          ],
+          [
+            1,
+            10,
+            3
+          ],
+          [
+            7,
+            2,
+            7
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          14,
+          16
+        ],
+        "predicted_class_counts": [
+          20,
+          15,
+          11
+        ]
+      },
+      "source_trials": 608,
+      "source_train_trials": 486,
+      "source_validation_trials": 122,
+      "target_adapt_trials": 22,
+      "target_test_trials": 46,
+      "best_source_validation": {
+        "epoch": 65,
+        "accuracy": 0.7786885245901639,
+        "ce": 0.6044953260265413,
+        "n_validation": 122
+      },
+      "pretrain_epochs": 100,
+      "adapt_epochs": 50,
+      "train_seconds": 590.3572923999163,
+      "pctr_skipped_batches": 40,
+      "target_test_evaluation_timing": "After all pretraining and adaptation; never used for selection.",
+      "finished_at": "2026-11-09T17:09:47+08:00"
+    },
+    {
+      "kind": "formal",
+      "mode": "source_global",
+      "fold": 7,
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.8297872340425532,
+        "kappa": 0.7454299255247123,
+        "macro_recall": 0.8333333333333334,
+        "macro_f1": 0.824294532627866,
+        "macro_auc": 0.9269489247311827,
+        "n_test": 47,
+        "confusion_matrix": [
+          [
+            14,
+            1,
+            1
+          ],
+          [
+            0,
+            15,
+            0
+          ],
+          [
+            2,
+            4,
+            10
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          15,
+          16
+        ],
+        "predicted_class_counts": [
+          16,
+          20,
+          11
+        ]
+      },
+      "source_only_metrics": {
+        "accuracy": 0.723404255319149,
+        "kappa": 0.5849184782608696,
+        "macro_recall": 0.7236111111111111,
+        "macro_f1": 0.717989417989418,
+        "macro_auc": 0.8761200716845879,
+        "n_test": 47,
+        "confusion_matrix": [
+          [
+            14,
+            1,
+            1
+          ],
+          [
+            2,
+            11,
+            2
+          ],
+          [
+            4,
+            3,
+            9
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          15,
+          16
+        ],
+        "predicted_class_counts": [
+          20,
+          15,
+          12
+        ]
+      },
+      "source_trials": 608,
+      "source_train_trials": 486,
+      "source_validation_trials": 122,
+      "target_adapt_trials": 21,
+      "target_test_trials": 47,
+      "best_source_validation": {
+        "epoch": 32,
+        "accuracy": 0.7295081967213115,
+        "ce": 0.7523959972819344,
+        "n_validation": 122
+      },
+      "pretrain_epochs": 100,
+      "adapt_epochs": 50,
+      "train_seconds": 586.6647039000527,
+      "pctr_skipped_batches": 31,
+      "target_test_evaluation_timing": "After all pretraining and adaptation; never used for selection.",
+      "finished_at": "2026-11-09T17:19:38+08:00"
+    },
+    {
+      "kind": "formal",
+      "mode": "source_global",
+      "fold": 8,
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.5,
+        "kappa": 0.25387870239774335,
+        "macro_recall": 0.5041666666666667,
+        "macro_f1": 0.49609819121447035,
+        "macro_auc": 0.7192876344086022,
+        "n_test": 46,
+        "confusion_matrix": [
+          [
+            7,
+            1,
+            7
+          ],
+          [
+            1,
+            5,
+            10
+          ],
+          [
+            2,
+            2,
+            11
+          ]
+        ],
+        "true_class_counts": [
+          15,
+          16,
+          15
+        ],
+        "predicted_class_counts": [
+          10,
+          8,
+          28
+        ]
+      },
+      "source_only_metrics": {
+        "accuracy": 0.43478260869565216,
+        "kappa": 0.15952213633169365,
+        "macro_recall": 0.44166666666666665,
+        "macro_f1": 0.3955722639933166,
+        "macro_auc": 0.6178091397849462,
+        "n_test": 46,
+        "confusion_matrix": [
+          [
+            5,
+            0,
+            10
+          ],
+          [
+            0,
+            2,
+            14
+          ],
+          [
+            1,
+            1,
+            13
+          ]
+        ],
+        "true_class_counts": [
+          15,
+          16,
+          15
+        ],
+        "predicted_class_counts": [
+          6,
+          3,
+          37
+        ]
+      },
+      "source_trials": 609,
+      "source_train_trials": 487,
+      "source_validation_trials": 122,
+      "target_adapt_trials": 21,
+      "target_test_trials": 46,
+      "best_source_validation": {
+        "epoch": 86,
+        "accuracy": 0.8114754098360656,
+        "ce": 0.5347464592730413,
+        "n_validation": 122
+      },
+      "pretrain_epochs": 100,
+      "adapt_epochs": 50,
+      "train_seconds": 587.8732189997681,
+      "pctr_skipped_batches": 37,
+      "target_test_evaluation_timing": "After all pretraining and adaptation; never used for selection.",
+      "finished_at": "2026-11-09T17:29:29+08:00"
+    },
+    {
+      "kind": "formal",
+      "mode": "source_global",
+      "fold": 9,
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.4888888888888889,
+        "kappa": 0.23333333333333328,
+        "macro_recall": 0.48928571428571427,
+        "macro_f1": 0.4669117647058824,
+        "macro_auc": 0.7031796499343773,
+        "n_test": 45,
+        "confusion_matrix": [
+          [
+            10,
+            4,
+            2
+          ],
+          [
+            1,
+            9,
+            4
+          ],
+          [
+            7,
+            5,
+            3
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          14,
+          15
+        ],
+        "predicted_class_counts": [
+          18,
+          18,
+          9
+        ]
+      },
+      "source_only_metrics": {
+        "accuracy": 0.4666666666666667,
+        "kappa": 0.2128279883381924,
+        "macro_recall": 0.4791666666666667,
+        "macro_f1": 0.37142106645652745,
+        "macro_auc": 0.7297023000276616,
+        "n_test": 45,
+        "confusion_matrix": [
+          [
+            7,
+            8,
+            1
+          ],
+          [
+            0,
+            14,
+            0
+          ],
+          [
+            4,
+            11,
+            0
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          14,
+          15
+        ],
+        "predicted_class_counts": [
+          11,
+          33,
+          1
+        ]
+      },
+      "source_trials": 609,
+      "source_train_trials": 487,
+      "source_validation_trials": 122,
+      "target_adapt_trials": 22,
+      "target_test_trials": 45,
+      "best_source_validation": {
+        "epoch": 58,
+        "accuracy": 0.7786885245901639,
+        "ce": 0.6352681800967357,
+        "n_validation": 122
+      },
+      "pretrain_epochs": 100,
+      "adapt_epochs": 50,
+      "train_seconds": 592.1231640002225,
+      "pctr_skipped_batches": 27,
+      "target_test_evaluation_timing": "After all pretraining and adaptation; never used for selection.",
+      "finished_at": "2026-11-09T17:39:25+08:00"
+    },
+    {
+      "kind": "formal",
+      "mode": "source_global",
+      "fold": 10,
+      "seed": 42,
+      "metrics": {
+        "accuracy": 0.5777777777777777,
+        "kappa": 0.36431226765799263,
+        "macro_recall": 0.5724206349206349,
+        "macro_f1": 0.556939548243896,
+        "macro_auc": 0.7760370576360565,
+        "n_test": 45,
+        "confusion_matrix": [
+          [
+            13,
+            2,
+            1
+          ],
+          [
+            4,
+            8,
+            2
+          ],
+          [
+            4,
+            6,
+            5
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          14,
+          15
+        ],
+        "predicted_class_counts": [
+          21,
+          16,
+          8
+        ]
+      },
+      "source_only_metrics": {
+        "accuracy": 0.5555555555555556,
+        "kappa": 0.334319526627219,
+        "macro_recall": 0.5561507936507937,
+        "macro_f1": 0.5353535353535354,
+        "macro_auc": 0.7535558763117162,
+        "n_test": 45,
+        "confusion_matrix": [
+          [
+            11,
+            3,
+            2
+          ],
+          [
+            1,
+            10,
+            3
+          ],
+          [
+            5,
+            6,
+            4
+          ]
+        ],
+        "true_class_counts": [
+          16,
+          14,
+          15
+        ],
+        "predicted_class_counts": [
+          17,
+          19,
+          9
+        ]
+      },
+      "source_trials": 609,
+      "source_train_trials": 487,
+      "source_validation_trials": 122,
+      "target_adapt_trials": 22,
+      "target_test_trials": 45,
+      "best_source_validation": {
+        "epoch": 98,
+        "accuracy": 0.7622950819672131,
+        "ce": 0.6328233734506076,
+        "n_validation": 122
+      },
+      "pretrain_epochs": 100,
+      "adapt_epochs": 50,
+      "train_seconds": 594.5899548000889,
+      "pctr_skipped_batches": 29,
+      "target_test_evaluation_timing": "After all pretraining and adaptation; never used for selection.",
+      "finished_at": "2026-11-09T17:49:23+08:00"
+    }
+  ],
+  "mean": {
+    "accuracy": 0.6463285024154588,
+    "kappa": 0.46945260928601396,
+    "macro_recall": 0.6465079365079364,
+    "macro_f1": 0.6280862118278143,
+    "macro_auc": 0.8177800032075616
+  },
+  "source_only_mean": {
+    "accuracy": 0.5919118100524206,
+    "kappa": 0.38822450321115776,
+    "macro_recall": 0.5928174603174603,
+    "macro_f1": 0.5599731814880717,
+    "macro_auc": 0.7835223929733802
+  }
+}

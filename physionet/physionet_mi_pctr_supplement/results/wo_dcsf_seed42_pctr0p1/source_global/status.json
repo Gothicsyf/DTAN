@@ -1,0 +1,9 @@
+{
+  "pid": 40404,
+  "updated_at": "2026-11-09T16:10:28+08:00",
+  "state": "complete",
+  "mode": "source_global",
+  "completed_folds": 10,
+  "expected_folds": 10,
+  "wall_seconds": 6495.33962893486
+}
